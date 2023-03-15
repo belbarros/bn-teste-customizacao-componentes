@@ -1,10 +1,9 @@
 @media (max-width: 400px) {
 
     .beon-container {
-        // background-color: red;
         width: 370px;
         height: 890px;
-        left: 0;
+        left: 2px;
         top: 0px;
     }
 
@@ -24,20 +23,14 @@
     }
 
     .beon-showcase .beon-showcase__head-inner {
-        // background-color: yellow;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-        // margin: auto;
-    }
-
-    .beon-showcase .beon-showcase__title {
-        text-align: center;
-        // margin: auto;
-        flex-grow: 1;
+        top: 15px;
     }
 
     .beon-showcase__viewmore {
         visibility:hidden;
-        display: none;
     }
     
     .beon-showcase .beon-showcase__item {
@@ -54,8 +47,11 @@
 
     .beon-showcase__items-wrapper {
         text-align: center;
-        // overflow: hidden;
         display: flex;
+    }
+
+    .beon-slider .beon-slider__frame {
+        padding: 20px;
     }
 
     .beon-showcase__items-wrapper .beon-slider .beon-slider__slides {
@@ -63,32 +59,35 @@
 
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
+        // justify-content: center;
+        // align-content: center;
+        // align-items: center;
         text-align: center;
     }
 
     .beon-slider .beon-slider__slides {
-        background-color: yellow;
         text-align: center;
-        overflow: hidden;
-        padding: 10px;
-        overflow-x: scroll;
-        overflow-y: hidden;
     }
 
     .beon-slider__slide {
-        background-color: blue;
-        align-self: center;
-        flex-grow: 1;
-        margin: 0 20px;
-        text-align: center;
-        // overflow: hidden;
+        background-color: yellow;
+        width: 100%;
+        position: relative;
+        box-sizing: border-box;
     }
 
 
     .beon-showcase .beon-slider__frame .tns-controls [data-controls] {
+        background-color: red;
         top: 300px;
     }
+
+    #tns1 .tns-item {
+        padding-right: 20px !important;
+        padding-left: 26px;
+        width: 100% !important;
+        box-sizing: border-box;
+    }
+
+
 }
