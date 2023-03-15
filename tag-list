@@ -1,0 +1,77 @@
+classes do arquivo
+beon-region
+
+beon-container
+
+beon-interaction
+	beon-interaction__item
+	beon-interaction__installmentsCount
+	beon-interaction__installmentPrice
+
+beon-showcase
+	beon-showcase--carousel
+	beon-showcase--default
+	beon-showcase__head
+	beon-showcase__head-inner
+	beon-showcase__title
+	beon-showcase__viewmore
+	beon-showcase__items-wrapper
+	beon-showcase__item
+	beon-showcase__item-title
+	beon-showcase__item-details
+	beon-showcase__item-references
+	beon-showcase__item-tags
+	beon-showcase__review
+	beon-showcase__item-image
+	beon-showcase__item-description
+	beon-showcase__item-price
+	beon-showcase__item-price-box
+	beon-showcase__item-price-box--special
+	beon-showcase__item-price--from
+	beon-showcase__item-price--to
+	beon-showcase__price
+	beon-showcase__item-installments
+	beon-showcase__item-avista
+	beon-showcase__item-discount
+	beon-showcase__item-badges
+	beon-showcase__item-badge
+	beon-showcase__item-badge--off
+	beon-showcase__item-badge--off-value
+	beon-showcase__item-actions
+
+beon-slider
+	beon-slider__frame
+	beon-slider__slides
+	beon-slider__slide
+	
+beon-product__sku
+beon-product__id
+beon-button
+beon-button--primary
+beon-button__label
+beon-button__label--details
+
+prefix
+currency
+value
+
+tns-outer
+tns-liveregion
+tns-visually-hidden
+tns-ovh
+tns-inner
+tns-slider
+tns-carousel
+tns-subpixel
+tns-calc
+tns-horizontal
+tns-item
+tns-slide-activate
+tns-complete
+tns-slide-active
+
+bn--widget
+bn--trustvox
+bn-lazyloaded
+
+divisor

@@ -1,0 +1,289 @@
+$primary-color: #5B2C86;
+$gray: #DFDFDF;
+$lighter-gray: #CCCCCC;
+$black: #313131;
+
+body, html {
+    font-family: Montserrat;
+}
+
+.beon-region {
+    margin-bottom: 3em;
+}
+
+h1.divisor {
+    display: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    padding-top: 60px;
+    font-family: Montserrat;
+}
+
+.beon-container {
+    // border: 1px dotted red;
+    position: absolute;
+    width: 1148px;
+    height: 1373px;
+    left: 360px;
+    top: 0px;
+}
+
+.beon-showcase {
+    width: 100%;
+    height: 100%; 
+    margin: auto;
+}
+
+.beon-showcase__item-references {
+    display: none;
+}
+
+.beon-showcase .beon-showcase__head {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+    margin: auto;
+    width: 100%;
+    height: 37px;
+    top: 51px;
+
+    &:before {
+        content: "";
+        width: 100%;
+        margin: auto;
+        top: 40px;
+        border-top: 1px solid $primary-color;
+    }
+}
+
+.beon-showcase .beon-showcase__head-inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.beon-showcase .beon-showcase__title {
+    color: $primary-color;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.beon-showcase .beon-showcase__viewmore {
+    color: $primary-color;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.beon-showcase .beon-showcase__item {
+    background-color: white;
+    width: 260px;
+    height: 520px;
+    border: 1px solid $gray;
+    border-radius: 6px;
+}
+
+.beon-showcase .beon-showcase__item-badge--off {
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+    background-color: $primary-color;
+    border-radius: 50%;
+    padding: 0;
+
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 195px;
+    top: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    & .beon-showcase__item-discount {
+        font-weight: 700;
+    }
+
+    & .null {
+        font-weight: 400;
+    }
+}
+
+.beon-showcase .beon-showcase__item-badge--off-value {
+    display: none;
+}
+
+.beon-showcase .beon-showcase__item-image {
+    width: 218px;
+    height: 309px;
+    margin: 20px;
+}
+
+.beon-showcase .beon-showcase__item-title {
+    position: absolute;
+    width: 219px;
+    // left: 20px;
+    top: 347px;
+    margin: 0 20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: $black;
+}
+
+.beon-showcase .beon-showcase__item-price-box {
+    position: absolute;
+    top: 389px;
+    left: 20px;
+}
+
+.beon-showcase__item-price--from span {
+    color: $lighter-gray;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    text-decoration: line-through;
+    text-decoration-color: $lighter-gray;
+}
+
+.beon-showcase__item-price--to .prefix {
+    display: none;
+}
+
+.beon-showcase .beon-showcase__item-price--to .beon-showcase__price, .beon-showcase .beon-showcase__item-price-box--simple .beon-showcase__price {
+    color: $primary-color;
+
+    margin-top: 5px;
+    margin-bottom: 2px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 16px;
+}
+
+.beon-showcase .beon-showcase__item-avista {
+    display: none;
+}
+
+.beon-showcase .beon-showcase__item-installments {
+    color: $black;
+
+    & strong {
+        font-weight: 200; 
+    }
+
+    & .beon-interaction__installmentPrice {
+        color: $primary-color;
+    }
+}
+
+.beon-showcase .beon-button--primary {
+    background-color: $gray;
+    position: absolute;
+    width: 100%;
+    height: 46px;
+    top: 474px;
+    border-radius: 0 0 6px 6px;
+
+    & .beon-button__label {
+        color: $primary-color;
+    }
+}
+
+.beon-showcase .beon-showcase__item:hover {
+    border-color: $primary-color;
+    cursor: pointer;
+
+    & .beon-button--primary {
+        background-color: $primary-color;
+        & .beon-button__label {
+            color: #fff;
+        }
+    }
+}
+
+.beon-slider {
+    position: relative;
+    width: 100%;
+    clear: both;
+    padding: 0;
+}
+
+.beon-slider .tns-nav button[data-nav] {
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin: 2.5px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    text-indent: -9999px;
+    cursor: pointer;
+    outline: 0;
+    background-color: #C4C4C4;
+    box-shadow: inset 0 0 0 0 transparent;
+}
+
+.beon-slider .tns-nav button[data-nav].tns-nav-active {
+    background-color: $primary-color;
+    box-shadow: inset 0 0 0 0 transparent;
+    width: 18px;
+    height: 18px;
+}
+
+.beon-slider .beon-slider__frame {
+    top: 56px;
+    min-width: 100%;
+    width: 100%;
+    position: relative;
+    // overflow: hidden;
+}
+
+.beon-slider .beon-slider__slides .beon-slider__slide {
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.beon-slider .tns-controls [data-controls=prev] {
+    background-image: url(../img/arrow-left-svgrepo-com\ 1.svg);
+    width: 58px;
+    left: -39px
+}
+
+.beon-slider .tns-controls [data-controls=next] {
+    background-image: url(../img/arrow-right-svgrepo-com\ \(1\)\ 1.svg);
+    width: 58px;
+    right: -39px
+}
