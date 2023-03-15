@@ -84,7 +84,6 @@ h1.divisor {
 }
 
 .beon-showcase .beon-showcase__item {
-  background-color: white;
   width: 260px;
   height: 520px;
   border: 1px solid #DFDFDF;
@@ -288,7 +287,6 @@ h1.divisor {
   .beon-showcase .beon-showcase__head-inner {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     top: 15px;
   }
   .beon-showcase__viewmore {
@@ -308,29 +306,26 @@ h1.divisor {
     display: flex;
   }
   .beon-slider .beon-slider__frame {
-    padding: 20px;
+    padding: 10px;
   }
   .beon-showcase__items-wrapper .beon-slider .beon-slider__slides {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
-  }
-  .beon-slider .beon-slider__slides {
-    text-align: center;
   }
   .beon-slider__slide {
-    background-color: yellow;
     width: 100%;
     position: relative;
     box-sizing: border-box;
   }
   .beon-showcase .beon-slider__frame .tns-controls [data-controls] {
-    background-color: red;
     top: 300px;
   }
+  .beon-showcase .beon-slider__frame .tns-nav {
+    height: 70px;
+  }
   #tns1 .tns-item {
-    padding-right: 20px !important;
+    padding-right: 44px !important;
     padding-left: 26px;
     width: 100% !important;
     box-sizing: border-box;
