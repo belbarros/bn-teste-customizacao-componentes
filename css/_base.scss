@@ -1,0 +1,28 @@
+body, html {
+    font-family: Montserrat;
+}
+
+.beon-region {
+    margin-bottom: 3em;
+}
+
+h1.divisor {
+    display: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    padding-top: 60px;
+    font-family: Montserrat;
+}
+
+.beon-container {
+    // border: 1px dotted red;
+    position: absolute;
+    width: 1148px;
+    height: 1373px;
+    left: 360px;
+    top: 0px;
+}

@@ -1,0 +1,56 @@
+.beon-slider {
+    position: relative;
+    width: 100%;
+    clear: both;
+    padding: 0;
+}
+
+.beon-slider .tns-nav button[data-nav] {
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin: 2.5px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    text-indent: -9999px;
+    cursor: pointer;
+    outline: 0;
+    background-color: #C4C4C4;
+    box-shadow: inset 0 0 0 0 transparent;
+}
+
+.beon-slider .tns-nav button[data-nav].tns-nav-active {
+    background-color: $primary-color;
+    box-shadow: inset 0 0 0 0 transparent;
+    width: 18px;
+    height: 18px;
+}
+
+.beon-slider .beon-slider__frame {
+    top: 56px;
+    min-width: 100%;
+    width: 100%;
+    position: relative;
+    // overflow: hidden;
+}
+
+.beon-slider .beon-slider__slides .beon-slider__slide {
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.beon-slider .tns-controls [data-controls=prev] {
+    background-image: url(../img/arrow-left-svgrepo-com\ 1.svg);
+    width: 58px;
+    left: -39px
+}
+
+.beon-slider .tns-controls [data-controls=next] {
+    background-image: url(../img/arrow-right-svgrepo-com\ \(1\)\ 1.svg);
+    width: 58px;
+    right: -39px
+}
